@@ -1,0 +1,452 @@
+
+@media (max-width: 768px) {
+    h1 {
+      font-size: 39px;
+      line-height: 42px;
+    }
+    h4 {
+      font-size: 18px;
+      line-height: 25px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 25px;
+    }
+    #hero {
+      padding: 250px 20px 68px 20px;
+      background-position: top;
+      justify-content: flex-start;
+
+      height: auto;
+    }
+  
+    .logo {
+      max-width: 200px;
+    }
+  
+    #c1v1 #hero, 
+    #c2v1 #hero, 
+    #c3v1 #hero, 
+    #c4v1 #hero,
+    #c5v1 #hero,
+    #c6v1 #hero {
+      background-image: url("../img/bg-PR23i.png");
+      background-size: contain;
+      padding-top: 220px;
+    }
+
+    #c1v1, #c2v1, #c3v1 {
+      position: relative;
+    }
+
+    #hero:after {
+      content: "";
+      background: #003ACF;
+      height: 773.15px;
+      width: 45.22px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 10;
+
+      border-radius: 50%;
+      filter: blur(181.5px);
+    }
+    
+    #hero .col-form {
+      z-index: 999;
+      padding: 0px;
+      background: none;
+      backdrop-filter: none;
+    }
+  
+    #hero .col-form .data {
+      margin-bottom: 16px;
+      margin-top: 16px;
+      font-size: 16px;
+      line-height: 25px;
+    }
+    #hero .col-form h4 {
+      margin-bottom: 8px;
+    }
+    #hero .col-form h1 {
+      margin-top: 8px;
+      margin-bottom: 16px;
+    }
+    #hero .col-form hr {
+      display: none;
+    }
+    #hero .col-form .btn-cta {
+      max-width: 390px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 16px;
+      font-size: 18px;
+    }
+    #hero::before {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 30%, #000 60%);
+      content: "";
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  
+
+    #c3v1 #hero .col-form .logo {
+      margin-bottom: 20px;
+    }
+  
+    #c3v1 #hero .col-form h4{
+      margin-bottom: 0px;
+      margin-top: 8px;
+    }
+  
+    #c3v1 #hero .col-form h3 {
+      font-size: 18px;
+      line-height: 27px;
+      margin-bottom: 32px;
+    }
+  
+    #c3v1 #hero .col-form h1 {
+      margin-top: 16px;
+      font-size: 28px;
+      line-height: 37px;
+    }
+  
+    #c3v1 #hero .col-form h1 br {
+      display: none;
+    }  
+    footer {
+      padding: 40px 20px;
+      position: relative;
+    }
+    .form-modal {
+      width: 100%;
+      margin-top: 60px;
+    }
+    .btn-submit {
+      font-size: 18px;
+      padding: 12px 20px;
+    }
+   
+    .close-modal-form {
+      top: 20px;
+      right: 20px;
+      width: 20px;
+    }
+    .politicas .modal-content .close-modal {
+      right: 0px;
+    }
+
+    #c6v1 #hero .logo {
+      margin-bottom: 16px;
+    }
+
+    #c4v1 #hero .col-form h1 {
+    
+      margin-bottom: 16px;
+    }
+   
+   
+
+    #c7v1 #hero{
+      display: none;
+    }
+
+    #c7v1 #overlay, #c7v1 .section-content {
+      display: block;
+    }
+
+    #c7v1 .capture-content {
+      margin-top: -180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 20px 68px;
+      gap: 12px;
+    }
+    #c7v1 .capture-content > * {
+      z-index: 1;
+    }
+    #c7v1 .conteudo-c7v1 {
+      max-width: 500px;
+    }
+    #c7v1 .btn-cta {
+      margin-top: 12px;
+    }
+    #c7v1 .data {
+      color: var(--text-white);
+      font-size: 18px;
+      line-height: 31px;
+    }
+
+    #c8v1 #hero{
+      display: none;
+    }
+
+    #c8v1 #overlay, #c8v1 .section-content {
+      display: block;
+    }
+
+    #c8v1 .capture-content {
+      margin-top: -180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 20px 68px;
+      gap: 12px;
+    }
+    #c8v1 .capture-content > * {
+      z-index: 1;
+    }
+    #c8v1 .conteudo-c8v1 {
+      max-width: 500px;
+    }
+    #c8v1 .btn-cta {
+      margin-top: 12px;
+    }
+    #c8v1 .data {
+      color: var(--text-white);
+      font-size: 18px;
+      line-height: 31px;
+    }
+
+
+
+    #c9v1 #hero{
+      display: none;
+    }
+
+    #c9v1 #overlay, #c9v1 .section-content {
+      display: block;
+    }
+
+    #c9v1 .capture-content {
+      margin-top: -180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 20px 68px;
+      gap: 12px;
+    }
+    #c9v1 .capture-content > * {
+      z-index: 1;
+    }
+    #c9v1 .conteudo-c9v1 {
+      max-width: 500px;
+    }
+    #c9v1 .btn-cta {
+      margin-top: 12px;
+    }
+    #c9v1 .data {
+      color: var(--text-white);
+      font-size: 18px;
+      line-height: 31px;
+    }
+
+
+    #c10v1 #hero{
+      display: none;
+    }
+
+    #c10v1 #overlay, #c10v1 .section-content {
+      display: block;
+    }
+
+    #c10v1 .capture-content {
+      margin-top: -180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px 20px 68px;
+      gap: 12px;
+    }
+    #c10v1 .capture-content > * {
+      z-index: 1;
+    }
+    #c10v1 .conteudo-c9v1 {
+      max-width: 500px;
+    }
+    #c10v1 .btn-cta {
+      margin-top: 12px;
+    }
+    #c10v1 .data {
+      color: var(--text-white);
+      font-size: 18px;
+      line-height: 31px;
+    }
+
+
+
+      #c11v1 #hero{
+        display: none;
+      }
+  
+      #c11v1 #overlay, #c11v1 .section-content {
+        display: block;
+      }
+  
+      #c11v1 .capture-content {
+        margin-top: -180px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px 68px;
+        gap: 12px;
+      }
+      #c11v1 .capture-content > * {
+        z-index: 1;
+      }
+      #c11v1 .conteudo-c11v1 {
+        max-width: 500px;
+      }
+      #c11v1 .btn-cta {
+        margin-top: 12px;
+      }
+      #c11v1 .data {
+        color: var(--text-white);
+        font-size: 18px;
+        line-height: 31px;
+      }
+  }
+
+  @media (min-width: 769px) {
+  .conclusao p br {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  #hero h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  #hero .col-form {
+    padding: 30px 30px;
+  }
+  
+  #hero .col-form .logo {
+    width: 200px;
+  }
+
+  #hero .col-form .data {
+    margin-bottom: 24px;
+    margin-top: 24px;
+  }
+
+  #c1v1 #hero .col-form .data {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+
+  #c2v1 #hero .col-form .data {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  #hero h4 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  #hero hr {
+    margin: 24px 0px;
+  }
+
+
+  
+}
+@media (min-width: 1921px) {
+  #hero {
+    background-repeat: no-repeat;
+    background-color: #010207;
+    background-size: cover;
+  }
+
+  #c1v1 #hero, #c2v1 #hero, #c3v1 #hero, #c4v1 #hero, #c5v1 #hero, #c6v1 #hero {
+    background-image: url("../img/bg-PR23i.png");
+  }
+
+  h1 {
+    font-size: 54px;
+    line-height: 64px;
+  }
+  p {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+ @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 100%;
+      width: 800px;
+      margin: 1.75rem auto;
+    }
+  }
+  
+  @media (max-width: 410px) {
+    h1 {
+      font-size: 32px;
+      line-height: 38px;
+    }
+    h4 {
+      font-size: 16px;
+      line-height: 22px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    #hero .col-form .btn-cta {
+      padding: 12px 30px;
+    }
+    
+    .conclusao h2 {
+      margin-bottom: 25px;
+    }
+  
+    .conclusao .btn-cta {
+      margin-top: 25px;
+      padding: 12px 25px;
+      font-size: 18px;
+    }
+
+    #c7v1 .btn-cta {
+      padding: 12px 25px;
+      font-size: 18px;
+    }
+
+    #c8v1 .btn-cta {
+      padding: 12px 25px;
+      font-size: 18px;
+    }
+
+    #c9v1 .btn-cta {
+      padding: 12px 25px;
+      font-size: 18px;
+    }
+
+    #c10v1 .btn-cta {
+      padding: 12px 25px;
+      font-size: 18px;
+    }
+
+    .conclusao .btn-cta-href {
+      margin-top: 25px;
+      padding: 12px 20px;
+      font-size: 18px;
+    }
+  }
+
+  @media (max-height: 700px) {
+    .modal.show .modal-dialog {
+      padding-top: 50px;
+    }
+  }
